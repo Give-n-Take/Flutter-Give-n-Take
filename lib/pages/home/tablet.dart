@@ -10,13 +10,13 @@ class HomePageTablet extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        PageHeader(text: 'DASHBOARD',),
+        PageHeader(text: 'Tableau de Bord',),
         Padding(
           padding: const EdgeInsets.all(14),
           child: CardItem(
             icon: Icons.monetization_on_outlined,
-            title: "Revenue",
-            subtitle: "Revenue this month",
+            title: "Revenus",
+            subtitle: "Revenue ce mois ci",
             value: "\$ 4,323",
             color1: Colors.green.shade700,
             color2: Colors.green,
@@ -27,7 +27,7 @@ class HomePageTablet extends StatelessWidget {
           child: CardItem(
             icon: Icons.shopping_basket_outlined,
             title: "Products",
-            subtitle: "Total products on store",
+            subtitle: "Nombre de produits en vente",
             value: "231",
             color1: Colors.lightBlueAccent,
             color2: Colors.blue,
@@ -37,8 +37,8 @@ class HomePageTablet extends StatelessWidget {
           padding: const EdgeInsets.all(14),
           child: CardItem(
             icon: Icons.delivery_dining,
-            title: "Orders",
-            subtitle: "Total orders for this month",
+            title: "Commandes",
+            subtitle: "Nombre de commandes ce mois :",
             value: "33",
             color1: Colors.redAccent,
             color2: Colors.red,
@@ -79,7 +79,7 @@ class HomePageTablet extends StatelessWidget {
                     ]),
                 child: Column(
                   children: [
-                    CustomText(text: 'Top Buyers', size: 30,),
+                    CustomText(text: 'Meilleurs acheteurs', size: 30,),
                     TopBuyerWidget(),
                     TopBuyerWidget(),
                     TopBuyerWidget(),

@@ -155,25 +155,25 @@ class BarChartSample1State extends State<BarChartSample1> {
               String weekDay;
               switch (group.x.toInt()) {
                 case 0:
-                  weekDay = 'Monday';
+                  weekDay = 'Lundi';
                   break;
                 case 1:
-                  weekDay = 'Tuesday';
+                  weekDay = 'Mardi';
                   break;
                 case 2:
-                  weekDay = 'Wednesday';
+                  weekDay = 'Mercredi';
                   break;
                 case 3:
-                  weekDay = 'Thursday';
+                  weekDay = 'Jeudi';
                   break;
                 case 4:
-                  weekDay = 'Friday';
+                  weekDay = 'Vendredi';
                   break;
                 case 5:
-                  weekDay = 'Saturday';
+                  weekDay = 'Samedi';
                   break;
                 case 6:
-                  weekDay = 'Sunday';
+                  weekDay = 'Dimanche';
                   break;
               }
               return BarTooltipItem(

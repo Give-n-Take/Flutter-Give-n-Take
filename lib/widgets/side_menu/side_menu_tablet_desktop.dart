@@ -30,7 +30,7 @@ class SideMenuTabletDesktop extends StatelessWidget {
             NavBarLogo(),
             SideMenuItemDesktop(
               icon: Icons.dashboard,
-              text: 'Dashboard',
+              text: 'Tableau de Bord',
               active: appProvider.currentPage == DisplayedPage.HOME,
               onTap: () {
                 appProvider.changeCurrentPage(DisplayedPage.HOME);
@@ -39,7 +39,7 @@ class SideMenuTabletDesktop extends StatelessWidget {
             ),
             SideMenuItemDesktop(
               icon: Icons.people,
-              text: 'Users',
+              text: 'Utilisateurs',
               active: appProvider.currentPage == DisplayedPage.USERS,
               onTap: () {
                 appProvider.changeCurrentPage(DisplayedPage.USERS);
@@ -49,7 +49,7 @@ class SideMenuTabletDesktop extends StatelessWidget {
             ),
             SideMenuItemDesktop(
               icon: Icons.shopping_cart,
-              text: 'Orders',
+              text: 'Commandes',
               active: appProvider.currentPage == DisplayedPage.ORDERS,
               onTap: () {
                 appProvider.changeCurrentPage(DisplayedPage.ORDERS);
@@ -58,7 +58,7 @@ class SideMenuTabletDesktop extends StatelessWidget {
             ),
             SideMenuItemDesktop(
               icon: Icons.shopping_basket_outlined,
-              text: 'Products',
+              text: 'Produits',
               active: appProvider.currentPage == DisplayedPage.PRODUCTS,
               onTap: () {
                 appProvider.changeCurrentPage(DisplayedPage.PRODUCTS);
@@ -67,7 +67,7 @@ class SideMenuTabletDesktop extends StatelessWidget {
             ),
             SideMenuItemDesktop(
               icon: Icons.category,
-              text: 'Categories',
+              text: 'Catégories',
               active: appProvider.currentPage == DisplayedPage.CATEGORIES,
               onTap: () {
                 appProvider.changeCurrentPage(DisplayedPage.CATEGORIES);
@@ -76,7 +76,7 @@ class SideMenuTabletDesktop extends StatelessWidget {
             ),
             SideMenuItemDesktop(
               icon: Icons.category,
-              text: 'Brands',
+              text: 'Associations',
               active: appProvider.currentPage == DisplayedPage.BRANDS,
               onTap: () {
                 appProvider.changeCurrentPage(DisplayedPage.BRANDS);

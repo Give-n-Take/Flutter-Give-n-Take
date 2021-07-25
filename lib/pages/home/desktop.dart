@@ -11,7 +11,7 @@ class HomePageDesktop extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        PageHeader(text: "DASHBOARD",),
+        PageHeader(text: "Give n Take",),
         CardsList(),
         Padding(
           padding: const EdgeInsets.all(14),
@@ -39,7 +39,7 @@ class HomePageDesktop extends StatelessWidget {
                     ]),
                 child: Column(
                   children: [
-                    CustomText(text: 'Top Buyers', size: 30,),
+                    CustomText(text: 'Plus gros acheteurs', size: 30,),
                     TopBuyerWidget(),
                     TopBuyerWidget(),
                     TopBuyerWidget(),

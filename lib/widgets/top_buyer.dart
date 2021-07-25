@@ -7,10 +7,10 @@ class TopBuyerWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return      ListTile(
       leading:   CircleAvatar(
-        backgroundImage: AssetImage('images/profile.jpg'),
+        backgroundImage: AssetImage('images/profile1.jpg'),
       ),
-      title: Text('Mario Smith'),
-      subtitle: Text('33, orders'),
+      title: Text('Quentin Bucher'),
+      subtitle: Text('33, commandes'),
       trailing: CustomText(text: '\$ 1,203', color: Colors.green.shade800, weight: FontWeight.bold,),
     );
   }

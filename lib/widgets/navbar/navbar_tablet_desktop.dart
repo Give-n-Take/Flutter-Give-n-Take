@@ -51,7 +51,7 @@ class NavigationTabletDesktop extends StatelessWidget {
               ),
               FlatButton.icon(
                 icon: Icon(Icons.settings),
-                label: CustomText(text: 'Settings',),
+                label: CustomText(text: 'Paramètres',),
                 onPressed: (){},
               ),
               SizedBox(
@@ -62,10 +62,10 @@ class NavigationTabletDesktop extends StatelessWidget {
                 children: [
                   CircleAvatar(
                     radius: 14,
-                    backgroundImage: AssetImage('images/profile.jpg'),
+                    backgroundImage: AssetImage('images/profile.png'),
                   ),
                   SizedBox(width: 5,),
-                  CustomText(text: 'Santos Enoque',),
+                  CustomText(text: 'Quentin Bucher',),
                   IconButton(
                     icon: Icon(Icons.keyboard_arrow_down),
                     onPressed: (){

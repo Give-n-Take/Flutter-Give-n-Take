@@ -40,7 +40,7 @@ class SalesChartState extends State<SalesChart> {
                   height: 37,
                 ),
                 const Text(
-                  'Unfold Shop 2018',
+                  'Give n Take',
                   style: TextStyle(
                     color: Color(0xff827daa),
                     fontSize: 16,
@@ -51,7 +51,7 @@ class SalesChartState extends State<SalesChart> {
                   height: 4,
                 ),
                 const Text(
-                  'Monthly Sales',
+                  'Ventes du mois :',
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 32,
